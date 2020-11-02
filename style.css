@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif, Arial, Helvetica;
+  font-family: sans-serif, Verdana, Tahoma, Century Gothic, Trebuchet, Calibri, Open Sans; /* The fonts were taken from https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide */
 }
 
 body{/* Maring 0 will fill in color on top to the edges */
@@ -21,8 +21,8 @@ li{
 }
 
 h2{
-  color: #00A69F; /* The color has been taken from Teknas logo at https://www.tekna.no/en/ */
-  font-style: sans-serif, Arial, Helvetica;
+  color: #0C7BDC; /* https://davidmathlogic.com/colorblind/#%23FFC20A-%230C7BDC-%2300A69F-%23b46696 */
+  font-style: sans-serif, Verdana, Tahoma, Century Gothic, Trebuchet, Calibri, Open Sans; /* The fonts were taken from https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide */
   max-width: 100%;
   font-weight: bold;
   padding-left: 20px;
@@ -43,7 +43,7 @@ h2{
   margin: 0;
 
   width: 100%;
-  background-color: #00A69F;
+  background-color: #0C7BDC;
 }
 
 #header{
@@ -52,7 +52,7 @@ h2{
   top:0;
   margin-left: 0;
   width: 100%;
-  background-color: #00A69F;
+  background-color: #0C7BDC;
 }
 
 #navBar{
@@ -74,7 +74,7 @@ h2{
 #contact {
   text-align: center;
   padding: 3px;
-  background-color: #00A69F;
+  background-color: #0C7BDC;
   color: white;
 }
 
@@ -87,9 +87,24 @@ h2{
   width: 100%;
   text-align: left; /* If you want the text to be left-aligned on small screens */
 }
+.logoIMGcontainerMenuBar{
+  float: none;
+  display: left;
+  width: 100%;
+  text-align: left; /* If you want the text to be left-aligned on small screens */
+}
+
 
 .image{ /*automatic image resize*/
   margin-right: auto;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  max-width: 95% ;
+  max-height: 400px;
+}
+.logoimage{ /*automatic image resize*/
+  margin-right: auto;
+  align-content: center;
   padding-left: 10px;
   padding-bottom: 15px;
   max-width: 95% ;
@@ -113,12 +128,12 @@ h2{
     padding-top:0px;
     margin: 0;
     width: 100%;
-    background-color: #00A69F;
+    background-color: #0C7BDC;
   }
 
   h2{
-    color: #00A69F; /* The color has been taken from Teknas logo at https://www.tekna.no/en/ */
-    font-style: sans-serif, Arial, Helvetica;
+    color: #0C7BDC; /* The color has been taken from Teknas logo at https://www.tekna.no/en/ */
+    font-style: sans-serif, Verdana, Tahoma, Century Gothic, Trebuchet, Calibri, Open Sans; /* The fonts were taken from https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide */
     font-size: 20px;
     max-width: 100%;
     font-weight: bold;
