@@ -6,7 +6,7 @@ body{/* Maring 0 will fill in color on top to the edges */
   margin:0;
 }
 header{
-  background-color: #0C7BDC;
+  background-color: #0C7BDC; /* The color has been taken from https://davidmathlogic.com/colorblind/#%23FFC20A-%230C7BDC-%2300A69F-%23b46696 */
 }
 
 p{ /* all paragraph text to 17px */
@@ -56,8 +56,8 @@ h2{
   margin-left: 0;
   max-width: 100%;
   height: auto;
-  background-color: #0C7BDC;
-}
+  background-color: #0C7BDC; /* The color has been taken from https://davidmathlogic.com/colorblind/#%23FFC20A-%230C7BDC-%2300A69F-%23b46696 */
+} 
 
 #navBar{
   padding-bottom: 0px;
@@ -78,12 +78,9 @@ h2{
 #contact {
   text-align: center;
   padding: 3px;
-  background-color: #0C7BDC;
+  background-color: #0C7BDC; /* The color has been taken from https://davidmathlogic.com/colorblind/#%23FFC20A-%230C7BDC-%2300A69F-%23b46696 */
   color: white;
 }
-
-
-
 
 
 .container{ /*Container around the CFO, CEO...*/
@@ -96,8 +93,6 @@ h2{
   width: 100%;
   text-align: left; /* If you want the text to be left-aligned on small screens */
 }
-
-
 
 .image{ /*automatic image resize*/
   margin-right: auto;
@@ -117,14 +112,14 @@ h2{
 }
 
 
-/*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
+/*COde block taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-/*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
+/*COde block taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
 .dropbtn {
-  background-color: #FFC20A;
+  background-color: #FFC20A; /* The color has been taken from https://davidmathlogic.com/colorblind/#%23FFC20A-%230C7BDC-%2300A69F-%23b46696 */
   color: black;
   padding-top: 17px;
   padding-bottom: 5px;
@@ -163,8 +158,7 @@ h2{
 }
 
 @media screen and (max-width:600px){ /*This block of code (From @media to the end of it was taken from https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
-  
-  
+
   .containerMenuBar{
     float: none;
     display: block;
@@ -172,8 +166,8 @@ h2{
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 
-  .logo{
-    word-break: break-all; /* This line of code was taken from https://css-tricks.com/almanac/properties/w/word-break/ */
+  .logo{ /* This block of code was taken from https://css-tricks.com/almanac/properties/w/word-break/ */
+    word-break: break-all; 
     color:white;
     font-size:3vw;
     text-align: center;
@@ -181,7 +175,7 @@ h2{
     padding-top:0px;
     margin: 0;
     max-width: 100%;
-    background-color: #0C7BDC;
+    background-color: #0C7BDC; /* The color has been taken from https://davidmathlogic.com/colorblind/#%23FFC20A-%230C7BDC-%2300A69F-%23b46696 */
   }
   .logoimage{ /*automatic image resize*/
     margin-right: auto;
@@ -194,7 +188,7 @@ h2{
   }
 
   h2{
-    color: #0C7BDC; /* The color has been taken from Teknas logo at https://www.tekna.no/en/ */
+    color: #0C7BDC; /* The color has been taken from https://davidmathlogic.com/colorblind/#%23FFC20A-%230C7BDC-%2300A69F-%23b46696 */
     font-style: sans-serif, Verdana, Tahoma, Century Gothic, Trebuchet, Calibri, Open Sans; /* The fonts were taken from https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide */
     font-size: 20px;
     max-width: 100%;
