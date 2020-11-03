@@ -5,6 +5,9 @@ html {
 body{/* Maring 0 will fill in color on top to the edges */
   margin:0;
 }
+header{
+  background-color: #0C7BDC;
+}
 
 p{ /* all paragraph text to 17px */
   font-size: 17px;
@@ -51,7 +54,8 @@ h2{
   position: sticky;
   top:0;
   margin-left: 0;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   background-color: #0C7BDC;
 }
 
@@ -78,21 +82,21 @@ h2{
   color: white;
 }
 
+
+
+
+
 .container{ /*Container around the CFO, CEO...*/
   overflow: hidden; /* Overflow line has been taken from https://www.w3schools.com/css/css_overflow.asp */
 }
 .containerMenuBar{
   float: none;
   display: inline;
+  text-emphasis-color: black;
   width: 100%;
   text-align: left; /* If you want the text to be left-aligned on small screens */
 }
-.logoIMGcontainerMenuBar{
-  float: none;
-  display: left;
-  width: 100%;
-  text-align: left; /* If you want the text to be left-aligned on small screens */
-}
+
 
 
 .image{ /*automatic image resize*/
@@ -106,12 +110,46 @@ h2{
   margin-right: auto;
   align-content: center;
   padding-left: 10px;
-  padding-bottom: 15px;
-  max-width: 95% ;
-  max-height: 400px;
+  padding-top: 5px;
+  max-width: 80% ;
+  height: auto;
+  float:right;
+}
+
+
+/*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: black;
+  padding: 17px;
+  font-size: 17px;
+  border: solid;
+  cursor: pointer;
+}
+
+/*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:whitesmoke;
+  min-width: 160px;
+  box-shadow: none;
+  padding: 13px 20px;
+  z-index: 1;
+}
+/*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 @media screen and (max-width:600px){ /*This block of code (From @media to the end of it was taken from https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
+  
+  
   .containerMenuBar{
     float: none;
     display: block;
@@ -127,8 +165,17 @@ h2{
     margin-left: 0;
     padding-top:0px;
     margin: 0;
-    width: 100%;
+    max-width: 100%;
     background-color: #0C7BDC;
+  }
+  .logoimage{ /*automatic image resize*/
+    margin-right: auto;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    max-width: 100% ;
+    height: auto;
+    float:left;
   }
 
   h2{
@@ -143,6 +190,8 @@ h2{
 
 
 }
+
+
 /*
 .listcontainer{
   margin-right: auto;
