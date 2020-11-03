@@ -124,10 +124,11 @@ h2{
 }
 /*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #FFC20A;
   color: black;
-  padding: 17px;
-  font-size: 17px;
+  padding-top: 17px;
+  padding-bottom: 5px;
+  font-size: 4vw;
   border: solid;
   cursor: pointer;
 }
@@ -145,6 +146,20 @@ h2{
 /*COde taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+.flex-container { /* code from https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox */  
+  display: flex;
+  background-color: #0C7BDC;
+  padding: none;
+}
+
+.flex-container > div { /*Code from https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox*/
+  background-color: #0C7BDC;
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
 }
 
 @media screen and (max-width:600px){ /*This block of code (From @media to the end of it was taken from https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
